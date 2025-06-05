@@ -1,0 +1,32 @@
+name: TP DevSecOps CI/CD
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # Lancement manuel depuis GitHub
+jobs:
+  run-monitoring:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 📥 Checkout du code
+      uses: actions/checkout@v3
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - name: 📦 Installer les dépendances
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: 🔒 Audit de sécurité
+      run: |
+        pip install pip-audit
+        python -m pip_audit
+    - name: 🧪 Exécuter le script monitor.py
+      env:
+        API_TOKEN: ${{ secrets.API_TOKEN }}
+        MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
+        MYSQL_USER: ${{ secrets.MYSQL_USER }}
+        MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
+        MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
+      run: |
+        python monitor.py
