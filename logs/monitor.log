@@ -37,3 +37,11 @@
 2025-06-05 11:40:51,402 - INFO - package: mysql.connector.plugins
 2025-06-05 11:40:51,402 - INFO - plugin_name: caching_sha2_password
 2025-06-05 11:40:51,402 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:46:18,045 - INFO - \u2705 API OK - 0.15s
+2025-06-05 11:46:18,115 - INFO - package: mysql.connector.plugins
+2025-06-05 11:46:18,115 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:46:18,115 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:57:20,846 - INFO - \u2705 API OK - 1.13s
+2025-06-05 11:57:20,893 - INFO - package: mysql.connector.plugins
+2025-06-05 11:57:20,893 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:57:20,893 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
