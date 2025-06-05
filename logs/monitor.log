@@ -1,0 +1,39 @@
+2025-06-05 11:01:37,980 - ERROR - \u274c API Down - Erreur : 401 Client Error: Unauthorized for url: http://127.0.0.1:8000/api/monitor
+2025-06-05 11:05:32,312 - INFO - \u2705 API OK - Temps de reponse : 0.16s
+2025-06-05 11:05:55,944 - INFO - \u2705 API OK - Temps de reponse : 0.59s
+2025-06-05 11:22:02,127 - INFO - \u2705 API OK - 0.37s
+2025-06-05 11:22:02,173 - INFO - package: mysql.connector.plugins
+2025-06-05 11:22:02,173 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:22:02,173 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:22:02,176 - ERROR - Erreur MySQL : 1054 (42S22): Unknown column 'response_time' in 'field list'
+2025-06-05 11:23:38,121 - ERROR - \u274c API Down : name 'reponse_time' is not defined
+2025-06-05 11:23:38,179 - INFO - package: mysql.connector.plugins
+2025-06-05 11:23:38,179 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:23:38,179 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:28:16,353 - INFO - \u2705 API OK - 0s
+2025-06-05 11:28:16,353 - ERROR - \u274c API Down : name 'response_time' is not defined
+2025-06-05 11:28:16,401 - INFO - package: mysql.connector.plugins
+2025-06-05 11:28:16,401 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:28:16,401 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:28:27,062 - INFO - \u2705 API OK - 0s
+2025-06-05 11:28:27,063 - ERROR - \u274c API Down : name 'response_time' is not defined
+2025-06-05 11:28:27,118 - INFO - package: mysql.connector.plugins
+2025-06-05 11:28:27,119 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:28:27,119 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:29:03,543 - INFO - \u2705 API OK - 0s
+2025-06-05 11:29:03,543 - ERROR - \u274c API Down : name 'response_time' is not defined
+2025-06-05 11:29:03,602 - INFO - package: mysql.connector.plugins
+2025-06-05 11:29:03,602 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:29:03,602 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:30:31,113 - INFO - \u2705 API OK - 0s
+2025-06-05 11:30:31,165 - INFO - package: mysql.connector.plugins
+2025-06-05 11:30:31,166 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:30:31,166 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:39:57,792 - ERROR - \u274c API Down : HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/monitor (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025F6A7E0D70>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-05 11:39:57,866 - INFO - package: mysql.connector.plugins
+2025-06-05 11:39:57,867 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:39:57,867 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 11:40:51,353 - INFO - \u2705 API OK - 0.34s
+2025-06-05 11:40:51,402 - INFO - package: mysql.connector.plugins
+2025-06-05 11:40:51,402 - INFO - plugin_name: caching_sha2_password
+2025-06-05 11:40:51,402 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
