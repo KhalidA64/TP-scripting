@@ -57,3 +57,9 @@
 2025-06-05 14:38:56,093 - INFO - package: mysql.connector.plugins
 2025-06-05 14:38:56,093 - INFO - plugin_name: caching_sha2_password
 2025-06-05 14:38:56,093 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 15:22:00,209 - ERROR - \u274c API Down : 502 Server Error: Bad Gateway for url: https://tp-scripting.onrender.com/api/monitor
+2025-06-05 15:22:21,287 - ERROR - Erreur MySQL : 2003: Can't connect to MySQL server on 'maglev.proxy.rlwy.net:3306' (Errno 10060: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu)
+2025-06-05 15:22:39,637 - INFO - \u2705 API OK - 0.21s
+2025-06-05 15:23:00,682 - ERROR - Erreur MySQL : 2003: Can't connect to MySQL server on 'maglev.proxy.rlwy.net:3306' (Errno 10060: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu)
+2025-06-05 15:34:27,491 - INFO - \u2705 API OK - 0.2s
+2025-06-05 15:34:48,584 - ERROR - Erreur MySQL : 2003: Can't connect to MySQL server on 'maglev.proxy.rlwy.net:3306' (Errno 10060: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu)
