@@ -1,0 +1,10 @@
+services:
+ - type: web
+   name: fake-api
+   runtime: python
+   buildCommand: pip install -r requirements.txt
+   startCommand: uvicorn fake_api:app --host 0.0.0.0 --port 10000
+   envVars:
+     - key: API_TOKEN
+       value: 123456
+   plan: free
