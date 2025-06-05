@@ -2,3 +2,6 @@ requests
 python-dotenv
 rich
 pip-audit
+uvicorn
+fastapi
+mysql-connector-python
