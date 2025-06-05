@@ -27,6 +27,7 @@ def save_to_db(status, reponse_time):
        conn = mysql.connector.connect(
            host=DB_HOST,
            user=DB_USER,
+           port=int(os.getenv("MYSQL_PORT", 3306)),
            password=DB_PASSWORD,
            database=DB_NAME
        )
