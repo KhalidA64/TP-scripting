@@ -49,3 +49,7 @@
 2025-06-05 14:35:41,355 - INFO - package: mysql.connector.plugins
 2025-06-05 14:35:41,355 - INFO - plugin_name: caching_sha2_password
 2025-06-05 14:35:41,355 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-05 14:37:18,234 - ERROR - \u274c API Down : HTTPSConnectionPool(host='tp-scripting.onrender.comr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002574B4E8D70>: Failed to resolve 'tp-scripting.onrender.comr' ([Errno 11001] getaddrinfo failed)"))
+2025-06-05 14:37:18,277 - INFO - package: mysql.connector.plugins
+2025-06-05 14:37:18,277 - INFO - plugin_name: caching_sha2_password
+2025-06-05 14:37:18,277 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin

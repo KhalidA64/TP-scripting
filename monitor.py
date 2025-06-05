@@ -10,7 +10,7 @@ from rich.panel import Panel
 load_dotenv()
 console = Console()
 
-API_URL ="https://tp-scripting.onrender.comr"
+API_URL ="https://tp-scripting.onrender.com/api/monitor"
 API_TOKEN = os.getenv("API_TOKEN")
 DB_HOST = os.getenv("MYSQL_HOST")
 DB_USER = os.getenv("MYSQL_USER")
